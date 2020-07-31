@@ -9,5 +9,5 @@ def my_all?(container)
   counter += 1 
 end 
   
-   my_all(counter) do 
+   if my_all?(container) {|i| i < 2}
 end 
