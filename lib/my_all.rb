@@ -15,3 +15,5 @@ end
      true 
    end 
 end 
+
+my_all?(counter) {|i| i < 3}
