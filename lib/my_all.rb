@@ -9,7 +9,7 @@ def my_all?(container)
   counter += 1 
 end 
   
-   if empty_container(counter).include?(false)
+   if empty_container.include?(false)
      false
    else 
      true 
