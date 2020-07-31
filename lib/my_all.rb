@@ -16,4 +16,6 @@ end
    end 
 end 
 
-my_all?(counter) {|i| i < 3}
+my_all?(counter) do |i| i < 3
+p i 
+end 
