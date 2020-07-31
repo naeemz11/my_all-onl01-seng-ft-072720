@@ -9,5 +9,9 @@ def my_all?(container)
   counter += 1 
 end 
   
-   if my_all?(container) {|i| i < 2}
+   if my_all?(container) {|i| i < 3}
+     true 
+   else 
+     false 
+   end 
 end 
