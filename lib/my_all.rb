@@ -8,5 +8,6 @@ def my_all?(container)
   empty_container << yield(container[counter])
   counter += 1 
 end 
-
+  
+   my_all(counter) do 
 end 
